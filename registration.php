@@ -3,7 +3,7 @@
     session_start();
     header('location:index.php');
 
-    $con = mysqli_connect('localhost','root','osk2009#');
+    $con = mysqli_connect('localhost','root','');
 
     mysqli_select_db($con,'login_register');
 
